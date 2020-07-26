@@ -83,7 +83,7 @@ a:hover, a:active {
     position: relative;
     width: 24px;
     height: 22px;
-    margin: 20px auto;
+    margin: 0 auto;
     transition: .5s ease-in-out;
     cursor: pointer;
 }
@@ -230,7 +230,7 @@ a:hover, a:active {
 .event-content-wrap .entry-title a {
     font-size: 18px;
     font-weight: 600;
-    color: #262626;
+    color: black;
 }
 
 .event-content-wrap .posted-date a,
@@ -244,26 +244,12 @@ a:hover, a:active {
     color: #262626;
 }
 
-.event-content-wrap .posted-date a {
-    padding-right: 14px;
-    margin-right: 14px;
-}
-
-.event-content-wrap .posted-date a::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 1px;
-    height: 100%;
-    background: #262626;
-}
 
 .event-content-wrap .entry-content {
     margin-top: 12px;
     margin-bottom: 0;
     font-size: 14px;
-    color: #929191;
+    color: black;
 }
 
 .event-content-wrap .entry-footer a {
