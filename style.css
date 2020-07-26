@@ -83,7 +83,7 @@ a:hover, a:active {
     position: relative;
     width: 24px;
     height: 22px;
-    margin: 0 auto;
+    margin: 20px auto;
     transition: .5s ease-in-out;
     cursor: pointer;
 }
